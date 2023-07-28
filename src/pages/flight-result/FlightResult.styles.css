@@ -1,0 +1,91 @@
+.cm-flight-result-wrapper .cm-filter-sidebar {
+  width: 260px;
+  
+}
+.cm-filter-sidebar .inner-sidebar{
+  background-color: #fff;
+  padding: 16px;
+  margin-bottom: 20px;
+}
+.add-col{
+  width: 200px;
+  top: 100px;
+  position: sticky;
+}
+.add-col img{
+  width: 100%;
+}
+.social-media-add {
+  text-align: center;
+}
+.social-media-add img{
+  margin-bottom: 15px;
+  width: 100%;
+}
+.cm-flight-result-wrapper .cm-result-wrap {
+  width: calc(100% - 460px);
+}
+
+.cm-filter-sidebar .cm-filter-widget + .cm-filter-widget {
+  margin-top: 15px;
+  border-top: 1px solid #ccc;
+  padding-top: 15px;
+}
+
+.cm-filter-widget li label {
+  display: flex;
+  user-select: none;
+}
+
+.cm-filter-sidebar .cm-filter-widget li + li {
+  margin-top: 10px;
+}
+
+.cm-filter-widget li input[type="checkbox"] {
+  width: 13px;
+}
+
+.cm-filter-sidebar .cm-filter-widget h4 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.cm-filter-sidebar .cm-filter-widget li span {
+  padding-left: 10px;
+  width: calc(100% - 13px);
+  font-size: 12px;
+}
+@media(max-width: 1200px){
+  .ticket_booking .cm-page-center {
+      padding: 0;
+  }
+  .cm-flight-result-wrapper .cm-filter-sidebar {
+      width: 230px;
+  }
+  .cm-flight-result-wrapper .cm-result-wrap {
+      width: calc(100% - 230px);
+  }
+  .add-col {
+      display: none;
+  }
+}
+@media(max-width: 1023px){
+  .ticket_booking .cm-page-center{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .cm-flight-result-wrapper .cm-page-center {
+    flex-wrap: wrap;
+  }
+  .cm-flight-result-wrapper .cm-filter-sidebar,
+  .cm-flight-result-wrapper .cm-result-wrap {
+    width: 100%;
+  }
+  .social-media-add{
+    display: none;
+  }
+  .cm-flight-result-wrapper .cm-result-wrap {
+    margin-top: 30px;
+    padding: 0;
+  }
+}

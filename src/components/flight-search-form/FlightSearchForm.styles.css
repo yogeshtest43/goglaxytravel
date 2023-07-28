@@ -1,0 +1,262 @@
+
+
+.cm-fl-search-form > div + div {
+  margin-top: 10px;
+}
+
+.cm-fl-search-form .cm-radio-field label + label {
+  margin-left: 30px;
+}
+
+.cm-fl-search-form .cm-radio-field label span {
+  padding-left: 6px;
+  font-weight: 600;
+  user-select: none;
+  color: rgb(79, 111, 143);
+}
+
+.cm-fl-search-form .cm-mid-wrap label {
+  display: block;
+  margin-bottom: 4px;
+  font-weight: 600;
+  color: rgb(79, 111, 143);
+}
+.cm-fl-search-form .cm-form-field i{
+  color: #000000;
+}
+.cm-radio-field.cm-lr-pad.cm-flex {
+  align-items: center;
+}a
+
+
+.cm-flight-result-container.ticket_booking .cm-trav-select.cm-lr-pad {
+  border: none;
+}
+
+.cm-flight-result-container.ticket_booking .cm-class-select.cm-lr-pad {
+  border: none;
+}
+.cm-srch-inp{
+  width: 49%;
+}
+.cm-form-field.date-field{
+  width: 24%;
+}
+.select-type span.cm-pointer {
+  padding: 8px 15px;
+  background: #fff;
+  display: block;
+  border-radius: 5px;
+  border: 1px solid rgb(192, 202, 213);
+}
+.select-type span.cm-pointer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.select-type {  
+  display: flex;
+  justify-content: space-between;
+  width: 48%;
+}
+.select-type .cm-class-select, .select-type .cm-trav-select {
+  width: 48%;
+}
+.cm-fl-search-btn button.cm-btn {
+  font-family: 'Montserrat', sans-serif;
+  background: #F74E0F;
+  color: #fff;
+  padding: 20px 22px;
+  font-size: 18px;
+  font-weight: 500;
+  width: 100%;
+  margin-top: 0;
+}
+
+.ticket_booking .cm-fl-search-form {
+  padding: 20px 30px 0;
+}
+.ticket_booking .cm-form-field{
+  width: 15%;
+}
+.ticket_booking .cm-form-field.cm-srch-inp {
+  width: 30%;
+}
+.ticket_booking .cm-fl-search-btn button.cm-btn{
+  padding: 8px 30px;
+}
+
+.select-type span.cm-pointer {
+  font-size: 14px;
+  color: rgb(79, 111, 143);
+}
+.cm-trav-wrap-sb-active .cm-sb-ul {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.cm-fl-search-form .cm-form-field.cm-srch-inp input[type="text"] {
+  padding-left: 30px;
+}
+
+.cm-search-inputs .cm-sb-ul,
+.cm-fl-class-sb-active .cm-sb-ul,
+.cm-trav-wrap-sb-active .cm-sb-ul {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.cm-trav-wrap ul li {
+  padding: 13px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cm-trav-wrap ul li button {
+  background-color: #0060e3;
+  border: none;
+  width: 30px;
+  height: 30px;
+  font-size: 19px;
+  cursor: pointer;
+  border-radius: 50%;
+  display: block;
+  color: #fff;
+}
+
+.cm-trav-wrap ul li span {
+  display: block;
+  width: calc(100% - 70px);
+  padding: 0 10px;
+  color: var(--secCol);
+  text-align: center;
+  font-weight: 600;
+}
+
+.cm-search-inputs ul li,
+.cm-fl-class-select ul li {
+  padding: 10px 15px;
+}
+
+.cm-search-inputs ul li + li,
+.cm-fl-class-select ul li + li {
+  border-top: 1px solid #f2f2f2;
+}
+.cm-search-inputs ul li:hover {
+  background: #F74E0F;
+}
+.cm-search-inputs ul li:hover *{
+  color: #fff !important;
+}
+.cm-date-selector i,
+.cm-search-inputs .cm-content i {
+  position: absolute;
+  top: calc(50% - 8px);
+  left: 10px;
+  z-index: 1;
+}
+
+.cm-search-inputs .cm-sb-ul {
+  width: 100%;
+}
+
+.cm-fl-search-form .cm-bottom-wrap > div {
+  flex: initial;
+}
+
+.cm-fl-search-form .cm-bottom-wrap .cm-fl-search-btn {
+  flex: 1;
+}
+
+.cm-fl-search-form .cm-bottom-wrap {
+  align-items: center;
+}
+
+.cm-datepicker-disabled {
+  pointer-events: none;
+}
+
+.cm-datepicker-disabled input[type="text"] {
+  background-color: #ccc !important;
+}
+
+.cm-result-list > li > p > span {
+  display: block;
+}
+
+.cm-result-list > li > p > span:first-child {
+  font-size: 13px;
+  color: #666;
+}
+
+.cm-result-list > li > span {
+  color: #666;
+  font-size: 14px;
+  font-weight: 500;
+  padding-left: 5px;
+}
+
+.cm-result-list > li > p > span + span {
+  font-weight: 600;
+}
+
+@media(max-width: 1200px){
+  .ticket_booking .cm-fl-search-form {
+      padding: 20px 20px 0;
+  }
+  .ticket_booking .cm-form-field.cm-srch-inp {
+      width: 27%;
+  }
+  .ticket_booking .cm-form-field{
+    width: 18%;
+  }
+  .cm-fl-search-form .cm-bottom-wrap{
+    padding: 0;
+  }
+}
+@media(max-width: 1023px){
+  .ticket_booking .cm-fl-search-form {
+      padding: 10px 0px 20px;
+  }
+  .cm-fl-search-form .cm-bottom-wrap{
+    padding: 0 15px;
+  }
+}
+@media(max-width: 767px){
+  .select-type span.cm-pointer{
+    padding: 9px;
+  }
+  .cm-form-field select, .cm-form-field input, .cm-form-field textarea{
+    padding: 10px;
+    font-size: 12px;
+  }
+  .select-type span.cm-pointer {
+      padding: 9px 14px;
+      font-size: 12px;
+  }
+  .cm-trav-wrap ul li {
+      padding: 8px 10px;
+      justify-content: space-between;
+  }
+  .cm-trav-wrap ul li span {
+      width: calc(100% - 58px);
+      padding: 0 6px;
+  }
+  .cm-fl-search-btn button.cm-btn {
+      padding: 8px 20px;
+  }
+  .ticket_booking .cm-radio-field {
+      flex-wrap: wrap;
+  }
+  .ticket_booking .cm-radio-field label.cm-pointer {
+      width: 37%;
+      margin-bottom: 15px;
+  }
+  .ticket_booking .cm-radio-field .cm-lr-pad {
+      width: 46%;
+      padding: 0;
+  }
+}
