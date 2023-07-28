@@ -11,23 +11,25 @@
 }
 
 .cm-fl-loader-wrapper h3 {
-  color: #009bc7;
+  color: #F74E0F;
   margin-bottom: 10px;
 }
 
 .cm-fl-loader-wrapper p {
   margin-bottom: 20px;
 }
+
 /* .lodor-section{
   margin-top: 90px;
 } */
 
-  @media(max-width: 767px){
-    .cm-fl-loader-wrapper{
-      max-width: 90%;
+@media(max-width: 767px) {
+  .cm-fl-loader-wrapper {
+    max-width: 90%;
 
-    }
-    .cm-fl-loader-wrapper h4{
-      font-size: 20px;
-    }
   }
+
+  .cm-fl-loader-wrapper h4 {
+    font-size: 20px;
+  }
+}

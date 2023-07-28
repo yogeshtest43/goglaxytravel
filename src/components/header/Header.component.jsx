@@ -22,17 +22,17 @@ const Header = () => {
           <div className="cm-sec-menu">
             <ul className="navMenu">
               <li>
-                  <Link to="/">Home</Link>
-                </li>
-                <li>
-                  <Link to="/packages">Packages</Link>
-                </li>
-                <li>
-                  <Link to="/about-us">About Us</Link>
-                </li>
-                <li>
-                  <Link to="/contact-us">Contact Us</Link>
-                </li>
+                <Link to="/">Home</Link>
+              </li>
+              <li>
+                <Link to="/packages">Packages</Link>
+              </li>
+              <li>
+                <Link to="/about-us">About Us</Link>
+              </li>
+              <li>
+                <Link to="/contact-us">Contact Us</Link>
+              </li>
             </ul>
             <ul className="cm-menu-ul cm-flex-type-1">
               {/* <li className="cm-flex-type-2 cm-header-phone">
