@@ -13,7 +13,7 @@ let urlname;
 
     // console.log("URLNAME", urlname);
 
-    const State_initial  = countryDeta[urlname].currencyCode;
+    const State_initial  = 'USD';
 
 const changeCurrency = (state = State_initial, action) => {
     switch (action.type) {
